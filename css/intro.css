@@ -1,24 +1,34 @@
+html {
+	background: url(../img/home.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body { margin: 0; font-size: 13px; line-height: 1.231; }
+
 .intro{
 	width:1000px;
 	height:900px;
-	background:url(../img/home.jpg);
-	background-repeat:no-repeat;
-	background-attachment:fixed;
-	background-position:center; 
 	text-align:center;
+	-background:url(../img/home.jpg);
+	-background-repeat:no-repeat;
+	-background-attachment:fixed;
+	-background-position:center; 
 }
 span{
-	position:absolute;
-	color:black;
-	font-size:2em;
-	top:79%;
+	-position:absolute;
+	-color:black;
+	-font-size:2em;
+	-top:79%;
 	background:white;
-	width:160px;
-	text-transform:uppercase;	
+	width:100%;
+	-text-transform:uppercase;	
 }
 #portf{
-	left:35%;
+	1left:35%;
 }
 #blog{
-	right:34%;
+	1right:34%;
 }
