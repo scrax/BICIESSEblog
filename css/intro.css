@@ -1,0 +1,24 @@
+.intro{
+	width:1000px;
+	height:900px;
+	background:url(../img/home.jpg);
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-position:center; 
+	text-align:center;
+}
+span{
+	position:absolute;
+	color:black;
+	font-size:2em;
+	top:79%;
+	background:white;
+	width:160px;
+	text-transform:uppercase;	
+}
+#portf{
+	left:35%;
+}
+#blog{
+	right:34%;
+}
