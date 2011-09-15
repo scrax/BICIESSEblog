@@ -361,8 +361,6 @@ body{
 	1display:none;
 	1background-color:#000;
 	height:100px;
-	   -moz-box-shadow:0 40px 40px -40px #AAA;
-	        box-shadow:0 40px 40px -40px #AAA;
 }
 
 .wrapper{
