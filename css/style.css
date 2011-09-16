@@ -213,6 +213,7 @@ img.bg {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index:-20;
 }
 
 @media screen and (max-width: 1024px) {
@@ -492,6 +493,7 @@ article header{
 	        box-shadow:0 -40px 40px -40px #AAA;
 	text-align:center;
 	margin-top: 35px;
+	z-index:10000;
 }
 
 #footer-container footer{
