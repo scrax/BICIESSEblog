@@ -441,7 +441,9 @@ h3{font-size: 2em;}
 
 #header-container{
 	1display:none;
-	1background-color:#000;
+	position:relative;
+	top:-16px;
+	background-color:hsla(0,0%,10%,0.4);
 	height:100px;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
 	        box-shadow:0 40px 40px -40px #AAA;
@@ -449,10 +451,10 @@ h3{font-size: 2em;}
 
 #header-container header p{
 	font-size:1.3em;
-	float:right;
+	1float:right;
 	position:relative;
-	top:30px;
-	left:15px;
+	top:33px;
+	text-align:right;
 	opacity:0.5;
 	font-weight:bold;
 }
@@ -534,7 +536,7 @@ article header{
 }
 
 #footer-container{
-	background-color:rgba(0, 0, 0, 0.8);
+	background-color:hsla(0,0%,10%,0.4);
 	height:100px;
 	width:100%;
 	-webkit-box-shadow:0 -40px 40px -40px #AAA;
@@ -549,7 +551,7 @@ article header{
 	color:rgba(255, 255, 255, 0.4);
 	font-size:0.9em;
 	font-weight:bold;
-	padding:35px;
+	padding:4%;
 }
 
 

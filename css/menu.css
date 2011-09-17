@@ -3,15 +3,9 @@
 	}
 .scraxmenu ul li#moreinfo{
 	position: relative;
-	right: -4em;
+	+right: -4em;
 	text-transform: none;
-	border-left-width: 1px;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 3px;
-	border-color: hsla(100, 0%, 50%, .5);
-	border-style: solid;
-	margin-left: -3em;
+	border:solid 1px hsla(100, 0%, 50%, .5);
 	z-index: 0;
 	top: 2.2em;
 	color: #e5e5e5;
@@ -27,22 +21,25 @@
 	font-size: 0.6em;
 	-moz-border-radius: 0px 0px 6px 6px;
 	border-radius: 0px 0px 6px 6px;
+	-webkit-transform:rotate(270deg);left:76px;top:-30px;
 }
 .scraxmenu {
-	right: 10.5em;
-	margin-left: -4em;
+	+right: 10.5em;
+	-margin-left: -4em;
 	color: #e6e6e6;
 	position: fixed;
+	left:-116px;
 	top:-16em;
+	top:-140px;
 	width: 8em;
 	font-family: Verdana, "Lucida Grande", Arial, sans-serif;
 	font-size: 1.1em;
 	font-weight: bold;
 	text-transform: uppercase;
 	z-index: 100;
-	-moz-border-radius: 0px 0px 16px 16px;
-	border-radius: 0px 0px 16px 16px;
-	-webkit-transition: top  0.8s ease-in-out, opacity 1s 0.2s ease-in-out;
+	+-moz-border-radius: 0px 0px 16px 16px;
+	+border-radius: 0px 0px 16px 16px;
+	-webkit-transition: left  0.8s ease-in-out, top  0.8s ease-in-out, opacity 1s 0.2s ease-in-out;
 	background: #333;
 	opacity:0.85;
 	-webkit-box-shadow: 2px -8px 30px 4px hsla(0, 0%, 60%, 0.7);
@@ -50,6 +47,7 @@
 
 .scraxmenu:hover, .scraxmenu:active {
 	top:0;
+	left:0px;
 	opacity:1;
 }
 
