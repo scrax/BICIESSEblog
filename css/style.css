@@ -200,6 +200,28 @@ table { border-collapse: collapse; border-spacing: 0; }
    Primary styles
    Author: 
    ========================================================================== */
+.membri {
+	text-align:center;
+	margin-top:20px;
+	padding-bottom:200px;
+}
+.membri a {
+		width: 920px; height:182px;
+		overflow: hidden;
+		float: left;
+		margin:3px -10px;
+}
+.membri img {
+    border: none;
+    margin: 0;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+}
+.membri a:hover img {
+    margin-top: -182px;
+}
+				
 img.bg {
     /* Set rules to fill background */
     min-height: 100%;
@@ -221,7 +243,9 @@ img.bg {
 		 left: 50%;
 		 margin-left: -512px; }
  }
-
+html{
+	background-color:#222;
+}
 .titolo {
 	color:rgba(255,255,255,0.2);
 	padding-top:30px;
@@ -245,8 +269,16 @@ article header img{
 article footer{
 	position:relative;
 	padding:5px;
-	width:920px;
-	eight:170px;
+	height:50px;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.1);
+	margin-top:35px;
+	border: 10px solid rgba(200,200,200,.1);
+}
+
+article footer:hover {
+	padding:5px;
+	height:170px;
 	background-color: rgba(255, 255, 255, 0.1);
 	margin-top:35px;
 	border: 10px solid rgba(200,200,200,.1);
@@ -272,15 +304,18 @@ article footer{
 	display: none;
 }
 
+#wrapper p {font-size: 1.3em;}
+
 /* These are just the demo styles and these can be removed and Orbit 
 will still work like a champ (except any content block needs a background which
 our demo gets from this sheet) */
 
 .container {
+	height:480px;
     position: relative; 
     top: 0px; 
     left: 0px;
-    margin: 0 0 0 0;
+    margin: 0; padding:0;
     z-index: 0; }
     
 .content { background: url(dummy-images/coffee.jpg); }
@@ -387,17 +422,22 @@ body{
 	font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
 }
 
-h2, h3{margin:30px 0;}
-h2{font-size: 40px;}
-h3{font-size: 30px;}
+h2, h3{margin:10px 0;}
+h2{font-size: 3em;}
+h3{font-size: 2em;}
 #title, h2, h3{font-weight:bold;}
 
-#title{
+#title {
 	font-size: 60px;
 	color:rgba(255,255,255,.3);
 	float:left;
 	margin-top:5px;
 	text-shadow: 2px 2px rgba(0,0,0,.3);
+}
+#title a{
+	color:rgba(255,255,255,.3);
+	text-shadow: 2px 2px rgba(0,0,0,.3);
+	text-decoration:none;
 }
 
 #header-container{
@@ -408,9 +448,19 @@ h3{font-size: 30px;}
 	        box-shadow:0 40px 40px -40px #AAA;
 }
 
+#header-container header p{
+	font-size:1.3em;
+	float:right;
+	position:relative;
+	top:30px;
+	left:15px;
+	opacity:0.5;
+	font-weight:bold;
+}
+
 .wrapper{
 	margin:auto;
-	width:960px;
+	width:920px;
 }
 
 header nav{

@@ -9,7 +9,7 @@
 /* PUT IN YOUR SLIDER ID AND SIZE TO MAKE LOAD BEAUTIFULLY
    ================================================== */
 #featured { 
-	width: 720px !important;
+	width: 720px;
 	height: 480px ;
 	background: #000 url('orbit/loading.gif') no-repeat center center;
 	overflow: hidden; 
@@ -154,10 +154,10 @@ span.pause.active {
 	text-align: center;
 	padding: 0px;
     font-size: 13px;
-    position: absolute;
-    left: 731px;
-    top: 0px;
-    width: 220px;
+    position: relative;
+    left: 725px;
+    top: -520px;
+    width: 170px;
     height:480px;
     1overflow:scroll;
     1overflow-x:visible; }

@@ -14,6 +14,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
 	<script src="js/libs/modernizr-2.0.min.js"></script>
 	<script src="js/libs/respond.min.js"></script>
 	<!-- Attach necessary JS -->
@@ -37,6 +38,12 @@
 </head>
 <body>
     <img src="img/background1.jpg" class="bg">
+	<div id="header-container">
+		<header class="wrapper">
+			<h1 id="title"><a href="index.html">BICIESSE prod.</a></h1>
+			<p>Le nostre realizzazioni / our works</p>
+		</header>
+	</div>
 	<div id="main" class="wrapper">
 		<aside>
 			<h3>Something aside</h3>
@@ -46,30 +53,6 @@
 			<header>
 				<div class="titolo"><h2>436</h2> by TomTom</div>
 			</header>
-			<style type="text/css">
-				.membri {
-					text-align:center;
-					margin-top:20px;
-					padding-bottom:200px;
-				}
-				.membri a {
-    				width: 900px; height:182px;
-    				overflow: hidden;
-    				float: left;
-    				margin-left:25px;
-    				margin-bottom:5px;
-				}
-				.membri img {
-				    border: none;
-				    margin: 0;
-				    -webkit-transition: all 0.1s ease-in-out;
-				    -moz-transition: all 0.1s ease-in-out;
-				    -o-transition: all 0.1s ease-in-out;
-				}
-				.membri a:hover img {
-				    margin-top: -182px;
-				}
-			</style>
 			<div class="membri">
 			    <a href="scrax.html"><img src="img/scrax.jpg" alt="scrax" /></a>
 			    <a href="436.html"><img src="img/436.jpg" alt="436" /></a>
@@ -97,140 +80,6 @@
 		</footer>
 	</div>
 <!-- INIZIO SCRAXMENU -->
-<style type="text/css">
-.scraxmenu hr {
-	opacity:0.3;
-	}
-.scraxmenu ul li#moreinfo{
-	position: relative;
-	right: -4em;
-	text-transform: none;
-	border-left-width: 1px;
-	border-bottom-width: 1px;
-	border-right-width: 1px;
-	border-top-width: 3px;
-	border-color: hsla(100, 0%, 50%, .5);
-	border-style: solid;
-	margin-left: -3em;
-	z-index: 0;
-	top: 2.2em;
-	color: #e5e5e5;
-	width: 10em;
-	height:1.8em;
-	background-color: hsl(0, 0%, 80%);
-	background-color: #cdcdcd;
-	text-align: center;
-	text-shadow: 0px 0px 2px #001e3c;
-	font-size: 0.6em;
-	-moz-border-radius: 0px 0px 6px 6px;
-	border-radius: 0px 0px 6px 6px;
-}
-.scraxmenu {
-	right: 10.5em;
-	margin-left: -4em;
-	color: #e6e6e6;
-	position: fixed;
-	top:-16.2em;
-	width: 8em;
-	font-family: Verdana, "Lucida Grande", Arial, sans-serif;
-	font-size: 1.1em;
-	font-weight: bold;
-	text-transform: uppercase;
-	z-index: 100;
-	-moz-border-radius: 0px 0px 16px 16px;
-	border-radius: 0px 0px 16px 16px;
-	-webkit-transition: top  0.8s ease-in-out, opacity 1s 0.2s ease-in-out;
-	background: #333;
-	opacity:0.85;
-	-webkit-box-shadow: 2px -8px 30px 4px hsla(0, 0%, 60%, 0.7);
-}
-
-.scraxmenu:hover, .scraxmenu:active {
-	top:0;
-	opacity:1;
-}
-
-.scraxmenu ul li:last-child {
-	opacity:1;
-	-webkit-transition: opacity 0.5s ease-in-out;
-}
-
-.scraxmenu:hover ul li:last-child, .scraxmenu:active ul li:last-child{
-	opacity: 0;
-}
-
-.scraxmenu ul {
-	z-index: 0;
-	text-align: center;
-	padding: 5px;
-	margin: 0px;
-	list-style-type: none;
-}
-
-.scraxmenu a:hover, scraxmenu a:active {
-	background: none;
-}
-
-.scraxmenu span{
-	width: 16.3em;
-	right: -17em;
-	text-shadow: 0px 1px 0px #e5e5e5;
-	text-transform: none;
-	border-width: 1px;
-	border-left-style: solid;
-	border-bottom-style: solid;
-	border-right-style: solid;
-	border-top-style: solid;
-	border-left-color: hsl(0, 0%, 95%);
-	border-bottom-color: hsl(0, 0%, 60%);
-	border-right-color: hsl(0, 0%, 60%);
-	border-top-color: hsl(0, 0%, 95%);
-	color: #303030;
-	font-size: 0.6em;
-	padding: 0.6em;
-	background: hsla(100, 50%, 80%, 0.8);
-	background-image: -moz-linear-gradient(
-		#FAA51A, #F47A20);
-	background-image: -webkit-gradient(linear, 0 0, 0 100%,
-		color-stop(0, #FAA51A),	color-stop(1, #F47A20));
-	position: absolute;
-	display: none;
-	-moz-border-radius: 16px;
-	border-radius: 20px 10px 10px 20px;
-	opacity:0.8;	
-}
-.scraxmenu ul li:hover span{
-	display: inline;
-}
-
-.scraxmenu ul li a {
-	text-shadow: 
-		0px -1px 0px hsla(  0,   0%, 100%, 0.8);
-	text-decoration: none;
-	color: hsl(0, 0%, 80%);
-}
-
-.scraxmenu ul li span a {
-	text-shadow: 
-		0px 1px 0px hsla(  0,   0%, 100%, 0.8)!important;
-	color: hsl(0, 100%, 0%);
-}
-
-.scraxmenu ul li span a:active {
-	color: hsl(0, 0%, 20%);
-}
-
-.scraxmenu ul li:hover a{
-	text-shadow: 
-		0px -1px 0px hsla(  0,   0%, 100%, 0.8), 
-		0px  0px 6px hsla(100,  50%,  80%, 0.8);
-}
-
-.scraxmenu ul li:active a{
-	text-shadow: 
-		0px  1px 0px hsla(  0,   0%, 100%, 0.8);
-}
-</style>
 <div class="scraxmenu">
 	<ul>
 	<li><a href="index.html">Home</a><span>http://www.61c13553.con</span></li>
