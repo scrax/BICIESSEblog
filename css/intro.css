@@ -17,12 +17,35 @@ img.bg {
 	 img.bg {
 		 left: 50%;
 		 margin-left: -512px; }
- }
+}
+
+@-webkit-keyframes rotate {
+	0% {
+		opacity:0;
+		top:50%; margin-top:-2040px; 
+		left:50%; margin-left:-1260px;
+		width:3520px;
+		-webkit-transform:rotate(0deg);}
+    100% {
+    	opcaity:1;
+    	top:50%; margin-top:-204px; 
+		left:50%; margin-left:-176px;
+		width:352px;
+		-webkit-transform:rotate(720deg);}
+}
 img.logo {
 	border:0;
-	position:fixed; 
-	top:50%; margin-top:-176px; 
-	left:50%; margin-left:-204px;
+	position:fixed;
+	top:50%; margin-top:-204px; 
+	left:50%; margin-left:-176px;
+	width:352px; 
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: linear;
+}
+img.logo:hover {
+
 }
 
 body { margin: 0; font-size: 13px; line-height: 1.231; }
