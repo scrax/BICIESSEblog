@@ -19,11 +19,10 @@ img.bg {
 		 margin-left: -512px; }
  }
 img.logo {
-position:fixed; 
-top:50%; 
-margin-top:-176px; 
-left:50%; 
-margin-left:-204px;
+	border:0;
+	position:fixed; 
+	top:50%; margin-top:-176px; 
+	left:50%; margin-left:-204px;
 }
 
 body { margin: 0; font-size: 13px; line-height: 1.231; }
@@ -52,3 +51,8 @@ span{
 #blog{
 	1right:34%;
 }
+
+body { font-family: "HelveticaNeue","Helvetica-Neue", "Helvetica", "Arial", sans-serif; }
+h1, a { font-size: 2em; color: #06f; }
+h1 { text-align: center; display:block; margin-top: 10px;  font-size: 3em; color: #06f; }
+p { font-size: 1.3em; }

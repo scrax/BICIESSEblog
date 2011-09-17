@@ -17,8 +17,11 @@
 	color: #e5e5e5;
 	width: 10em;
 	height:1.8em;
-	background-color: hsl(0, 0%, 80%);
-	background-color: #cdcdcd;
+	background: hsla(100, 50%, 80%, 0.8);
+	background-image: -moz-linear-gradient(
+		#FAA51A, #F47A20);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+		color-stop(0, #FAA51A),	color-stop(1, #F47A20));
 	text-align: center;
 	text-shadow: 0px 0px 2px #001e3c;
 	font-size: 0.6em;
@@ -30,7 +33,7 @@
 	margin-left: -4em;
 	color: #e6e6e6;
 	position: fixed;
-	top:-14.6em;
+	top:-16em;
 	width: 8em;
 	font-family: Verdana, "Lucida Grande", Arial, sans-serif;
 	font-size: 1.1em;
