@@ -17,10 +17,30 @@
 	
 	<script src="js/libs/modernizr-2.0.min.js"></script>
 	<script src="js/libs/respond.min.js"></script>
+<!--MODAL WINDOW-->	
+		<!-- Attach our CSS -->
+	  	<link rel="stylesheet" href="css/reveal.css">	
+	  	
+		<!-- Attach necessary scripts -->
+		<!-- <script type="text/javascript" src="jquery-1.4.4.min.js"></script> -->
+		
+		<style type="text/css">
+			body { font-family: "HelveticaNeue","Helvetica-Neue", "Helvetica", "Arial", sans-serif; }
+			.big-link { display:block; margin-top: 100px; text-align: center; font-size: 70px; color: #06f; }
+		</style>
+
 </head>
 <body>
-    <img src="img/logo.png" class="logo">
-    <img src="img/home.jpg" class="bg">
+    <a href="#" data-reveal-id="myModal"><img src="img/logo.png" class="logo"></a>
+	<div id="myModal" class="reveal-modal">
+	<h1>Benvenuto in BiCiEsse.com</h1>
+	<p>Questo sito è una racccolta dei lavori, portfoli, progetti e molto altro, il tutto 100% realizzato da membri di BCS.</p>
+	<p>Divertitevi e commentate ciò che v'incuriosisce.</p>
+	<p style="text-align:center;"><a href="portfoli.html">Realizzazioni</a> | <a href="http://altrotest.tumblr.com/">Blog</a></p>
+	<p>Nota: In quresta finestra possiamo mettere anche immagini al posto delle scritte realizzazioni e blog, pensateci.</p>
+	<a class="close-reveal-modal">&#215;</a>
+	</div>
+	<img src="img/home.jpg" class="bg">
 <!-- INIZIO SCRAXMENU -->
 <style type="text/css">
 .scraxmenu hr {
@@ -175,6 +195,7 @@
 <!-- FINE SCRAXMENU -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+<script type="text/javascript" src="js/libs/jquery.reveal.js"></script>
 
 <script src="js/script.js"></script>
 
