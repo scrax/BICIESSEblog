@@ -278,7 +278,7 @@ article footer{
 
 article footer:hover {
 	padding:5px;
-	height:170px;
+	height:100%;
 	background-color: rgba(255, 255, 255, 0.1);
 	margin-top:35px;
 	border: 10px solid rgba(200,200,200,.1);
@@ -304,7 +304,6 @@ article footer:hover {
 	display: none;
 }
 
-#wrapper p {font-size: 1.3em;}
 
 /* These are just the demo styles and these can be removed and Orbit 
 will still work like a champ (except any content block needs a background which
