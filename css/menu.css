@@ -3,11 +3,9 @@
 	}
 .scraxmenu ul li#moreinfo{
 	position: relative;
-	+right: -4em;
 	text-transform: none;
 	border:solid 1px hsla(100, 0%, 50%, .5);
 	z-index: 0;
-	top: 2.2em;
 	color: #e5e5e5;
 	width: 10em;
 	height:1.8em;
@@ -21,13 +19,14 @@
 	font-size: 0.6em;
 	-moz-border-radius: 0px 0px 6px 6px;
 	border-radius: 0px 0px 6px 6px;
-	-webkit-transform:rotate(270deg);left:76px;top:-30px;
+	-webkit-transform:rotate(270deg);left:76px;top:-36px;
 }
 .scraxmenu {
 	+right: 10.5em;
 	-margin-left: -4em;
 	color: #e6e6e6;
 	position: fixed;
+	padding-top:6px;
 	left:-116px;
 	top:-16em;
 	top:-140px;

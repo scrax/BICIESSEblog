@@ -214,9 +214,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 .membri img {
     border: none;
     margin: 0;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
 }
 .membri a:hover img {
     margin-top: -182px;

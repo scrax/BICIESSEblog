@@ -48,7 +48,7 @@ img.logo:hover {
 
 }
 
-body { margin: 0; font-size: 13px; line-height: 1.231; }
+body { margin: 0; font-size: 16px; line-height: 1.231; }
 
 .intro{
 	width:1000px;
@@ -76,6 +76,7 @@ span{
 }
 
 body { font-family: "HelveticaNeue","Helvetica-Neue", "Helvetica", "Arial", sans-serif; }
-h1, a { font-size: 2em; color: #06f; }
+h1, a { color: #06f; }
+li (font-size:1.3em;)
 h1 { text-align: center; display:block; margin-top: 10px;  font-size: 3em; color: #06f; }
 p { font-size: 1.3em; }
