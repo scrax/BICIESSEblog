@@ -11,12 +11,20 @@ img.bg {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index:-1;
 }
 @media screen and (max-width: 1024px) {
 	 img.bg {
 		 left: 50%;
 		 margin-left: -512px; }
  }
+img.logo {
+position:fixed; 
+top:50%; 
+margin-top:-176px; 
+left:50%; 
+margin-left:-204px;
+}
 
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 

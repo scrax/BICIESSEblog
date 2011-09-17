@@ -1,477 +1,132 @@
-/*
- * HTML5 Boilerplate
- *
- * What follows is the result of much research on cross-browser styling.
- * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
- * Kroc Camen, and the H5BP dev community and team.
- */
-
-
-/* =============================================================================
-   HTML5 element display
-   ========================================================================== */
-
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-
-
-/* =============================================================================
-   Base
-   ========================================================================== */
-
-/*
- * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
- *    http://clagnut.com/blog/348/#c790
- * 2. Force vertical scrollbar in non-IE
- * 3. Remove Android and iOS tap highlight color to prevent entire container being highlighted
- *    www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/
- * 4. Prevent iOS text size adjust on device orientation change, without disabling user zoom
- *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
- */
-
-html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-tap-highlight-color: rgba(0,0,0,0); -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-
-body { margin: 0; font-size: 13px; line-height: 1.231; }
-
-body, button, input, select, textarea { font-family: sans-serif; color: #ddd; }
-
-/* 
- * These selection declarations have to be separate
- * No text-shadow: twitter.com/miketaylr/status/12228805301
- * Also: hot pink!
- */
-
-::-moz-selection { background: #fe57a1; color: #fff; text-shadow: none; }
-::selection { background: #fe57a1; color: #fff; text-shadow: none; }
-
-
-/* =============================================================================
-   Links
-   ========================================================================== */
-
-a { color: #00e; }
-a:visited { color: #ccc; }
-a:focus { outline: thin dotted; }
-
-/* Improve readability when focused and hovered in all browsers: people.opera.com/patrickl/experiments/keyboard/test */
-a:hover, a:active { outline: 0; }
-
-
-/* =============================================================================
-   Typography
-   ========================================================================== */
-
-abbr[title] { border-bottom: 1px dotted; }
-
-b, strong { font-weight: bold; }
-
-blockquote { margin: 1em 40px; }
-
-dfn { font-style: italic; }
-
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
-
-ins { background: #ff9; color: #000; text-decoration: none; }
-
-mark { background: #ff0; color: #000; font-style: italic; font-weight: bold; }
-
-/* Redeclare monospace font family: en.wikipedia.org/wiki/User:Davidgothberg/Test59 */
-pre, code, kbd, samp { font-family: monospace, monospace; _font-family: 'courier new', monospace; font-size: 1em; }
-
-/* Improve readability of pre-formatted text in all browsers */
-pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
-
-q { quotes: none; }
-q:before, q:after { content: ""; content: none; }
-
-small { font-size: 85%; }
-
-/* Position subscript and superscript content without affecting line-height: gist.github.com/413930 */
-sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; }
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
-
-
-/* =============================================================================
-   Lists
-   ========================================================================== */
-
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
-dd { margin: 0 0 0 40px; }
-nav ul, nav ol { list-style: none; margin: 0; padding: 0; }
-
-
-/* =============================================================================
-   Embedded content
-   ========================================================================== */
-
-/*
- * Improve image quality when scaled in IE7
- * code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
- */
-
-img { border: 0; -ms-interpolation-mode: bicubic; }
-
-/*
- * Correct overflow displayed oddly in IE9 
- */
-
-svg:not(:root) {
-    overflow: hidden;
+.scraxmenu hr {
+	opacity:0.3;
+	}
+.scraxmenu ul li#moreinfo{
+	position: relative;
+	right: -4em;
+	text-transform: none;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 3px;
+	border-color: hsla(100, 0%, 50%, .5);
+	border-style: solid;
+	margin-left: -3em;
+	z-index: 0;
+	top: 2.2em;
+	color: #e5e5e5;
+	width: 10em;
+	height:1.8em;
+	background-color: hsl(0, 0%, 80%);
+	background-color: #cdcdcd;
+	text-align: center;
+	text-shadow: 0px 0px 2px #001e3c;
+	font-size: 0.6em;
+	-moz-border-radius: 0px 0px 6px 6px;
+	border-radius: 0px 0px 6px 6px;
+}
+.scraxmenu {
+	right: 10.5em;
+	margin-left: -4em;
+	color: #e6e6e6;
+	position: fixed;
+	top:-14.6em;
+	width: 8em;
+	font-family: Verdana, "Lucida Grande", Arial, sans-serif;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-transform: uppercase;
+	z-index: 100;
+	-moz-border-radius: 0px 0px 16px 16px;
+	border-radius: 0px 0px 16px 16px;
+	-webkit-transition: top  0.8s ease-in-out, opacity 1s 0.2s ease-in-out;
+	background: #333;
+	opacity:0.85;
+	-webkit-box-shadow: 2px -8px 30px 4px hsla(0, 0%, 60%, 0.7);
 }
 
-
-/* =============================================================================
-   Figures
-   ========================================================================== */
-
-figure { margin: 0; }
-
-
-/* =============================================================================
-   Forms
-   ========================================================================== */
-
-form { margin: 0; }
-fieldset { border: 0; margin: 0; padding: 0; }
-
-/* 
- * 1. Correct color not inheriting in IE6/7/8/9 
- * 2. Correct alignment displayed oddly in IE6/7 
- */
-
-legend { border: 0; *margin-left: -7px; padding: 0; }
-
-/* Indicate that 'label' will shift focus to the associated form element */
-label { cursor: pointer; }
-
-/*
- * 1. Correct font-size not inheriting in all browsers
- * 2. Remove margins in FF3/4 S5 Chrome
- * 3. Define consistent vertical alignment display in all browsers
- */
-
-button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
-
-/*
- * 1. Define line-height as normal to match FF3/4 (set using !important in the UA stylesheet)
- * 2. Correct inner spacing displayed oddly in IE6/7
- */
-
-button, input { line-height: normal; *overflow: visible; }
-
-/*
- * 1. Display hand cursor for clickable form elements
- * 2. Allow styling of clickable form elements in iOS
- */
-
-button, input[type="button"], input[type="reset"], input[type="submit"] { cursor: pointer; -webkit-appearance: button; }
-
-/*
- * Consistent box sizing and appearance
- */
-
-input[type="checkbox"], input[type="radio"] { box-sizing: border-box; }
-input[type="search"] { -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
-
-/* 
- * Remove inner padding and border in FF3/4
- * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/ 
- */
-
-button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
-
-/* Remove default vertical scrollbar in IE6/7/8/9 */
-textarea { overflow: auto; vertical-align: top; }
-
-/* Colors for form validity */
-input:valid, textarea:valid {  }
-input:invalid, textarea:invalid { background-color: #f0dddd; }
-
-
-/* =============================================================================
-   Tables
-   ========================================================================== */
-
-table { border-collapse: collapse; border-spacing: 0; }
-
-
-/* =============================================================================
-   Primary styles
-   Author: 
-   ========================================================================== */
-body1{
-	background-image:url('../img/background1.jpg');
+.scraxmenu:hover, .scraxmenu:active {
+	top:0;
+	opacity:1;
 }
 
-.titolo {
-	color:rgba(255,255,255,0.2);
-	padding-top:30px;
-	display:none;
-	
-}
-.titolo h2{
-	text-transform:uppercase;
-	display:inline;
+.scraxmenu ul li:last-child {
+	opacity:1;
+	-webkit-transition: opacity 0.5s ease-in-out;
 }
 
-article header img{
-	2float:left;
-	margin:2%;
-	width:600px;
-	-webkit-box-shadow: 0 0px 15px 5px rgba(0,0,0,0.5);
-	   -moz-box-shadow: 0 0px 15px 5px rgba(0,0,0,0.5);
-	        box-shadow: 0 0px 15px 5px rgba(0,0,0,0.5);
+.scraxmenu:hover ul li:last-child, .scraxmenu:active ul li:last-child{
+	opacity: 0;
 }
 
-article footer{
-	position:relative;
-	padding:5px;
-	margin:0px;
-	width:100%;
-	background-color: rgba(255, 255, 255, 0.1);
+.scraxmenu ul {
+	z-index: 0;
+	text-align: center;
+	padding: 5px;
+	margin: 0px;
+	list-style-type: none;
 }
 
-.social {
-    position: absolute;
-    top: 0px; 
-    right: 40px;
-    z-index: 10;
+.scraxmenu a:hover, scraxmenu a:active {
+	background: none;
 }
 
-.social li{
+.scraxmenu span{
+	width: 16.3em;
+	right: -17em;
+	text-shadow: 0px 1px 0px #e5e5e5;
+	text-transform: none;
+	border-width: 1px;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-right-style: solid;
+	border-top-style: solid;
+	border-left-color: hsl(0, 0%, 95%);
+	border-bottom-color: hsl(0, 0%, 60%);
+	border-right-color: hsl(0, 0%, 60%);
+	border-top-color: hsl(0, 0%, 95%);
+	color: #303030;
+	font-size: 0.6em;
+	padding: 0.6em;
+	background: hsla(100, 50%, 80%, 0.8);
+	background-image: -moz-linear-gradient(
+		#FAA51A, #F47A20);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%,
+		color-stop(0, #FAA51A),	color-stop(1, #F47A20));
+	position: absolute;
+	display: none;
+	-moz-border-radius: 16px;
+	border-radius: 20px 10px 10px 20px;
+	opacity:0.8;	
+}
+.scraxmenu ul li:hover span{
 	display: inline;
 }
-/* These are just the demo styles and these can be removed and Orbit 
-will still work like a champ (except any content block needs a background which
-our demo gets from this sheet) */
 
-.container {
-    position: relative; 
-    top: 0px; 
-    left: 0px;
-    margin: 0 0 0 0; }
-    
-.content { background: url(dummy-images/coffee.jpg); }
-.content h1 {
-	font-size: 40px; 
-	text-transform: uppercase; 
-	font-weight: bold; 
-	text-align: center;
-	margin-top: 180px;
-	color: #222;
-	line-height: 50px;  }
-.content h3 {
-	text-align: center; 
-	font-size: 22px; 
-	color: #222; }
-
-/* =============================================================================
-   Slideshow
-   ========================================================================== */
-
-	#slideshow {
-		position: relative;
-		width: 700px;
-		height: 600px;
-		-moz-border-radius: 12px;
-			 border-radius: 12px;
-	}
-	#slides li {
-		1background: url(../img/portfolio/tomtom/first.png);
-		1background-repeat:no-repeat;
-		1background-attachment:fixed;
-		1background-position:0px 200px; 
-		position: absolute;
-		list-style:none;
-		top: -200px;
-		left: 0px;
-		padding-top:200px;
-		z-index: 0;
-	}
-	#slides li p{
-		margin-top:16px;
-	}
-	#slides li img, #slides li p{
-		opacity: 0;
-		filter:alpha(opacity=0);
-		-webkit-transition: 2s;
-		-moz-transition: 2s;
-		transition: 2s;
-		-moz-border-radius: 12px;
-		-webkit-border-radius: 12px;
-		border-radius: 12px;
-	}
-	#slides li:target {
-		z-index: 5;
-	}
-	#slides li:target img,#slides li:target p {
-		opacity: 1;
-		filter:alpha(opacity=100);
-	}
-	#slide0 {
-		text-align:center;
-	}
-	#slide0 p{
-		opacity: 0.5 !important;
-		filter:alpha(opacity=50) !important;
-	}
-	
-	#nav {
-    position: absolute;
-    top: 10px; right: 90px;
-    z-index: 10;
-	}
-	
-	#nav li {
-		display: inline;
-	}
-	#nav a {
-		padding: 3px 10px;
-		margin: 0 0 0 3px;
-		-moz-border-radius: 12px;
-		-webkit-border-radius: 12px;
-		border-radius: 12px;
-		font-weight: bold;
-		text-decoration: none;
-		color: #fff;
-		background: rgb(0,0,0);
-		background: rgba(0,0,0,.1);
-	}
-	#nav a:hover, #nav a:focus {
-		-moz-box-shadow: 0 0 8px #fff;
-		-webkit-box-shadow: 0 0 8px #fff;
-		box-shadow: 0 0 8px #fff;
-		background: rgba(0,0,0,.4);
-		outline: none;
-	}
-
-/* ==================
-   Initializr Theme
-   ================== */
-
-
-body{
-	text-rendering: optimizeLegibility;
-	font-family:Helvetica, Helvetica Neue, Arial, sans-serif;
-	-background-color:black;
+.scraxmenu ul li a {
+	text-shadow: 
+		0px -1px 0px hsla(  0,   0%, 100%, 0.8);
+	text-decoration: none;
+	color: hsl(0, 0%, 80%);
 }
 
-#header-container{
-	1display:none;
-	1background-color:#000;
-	height:100px;
+.scraxmenu ul li span a {
+	text-shadow: 
+		0px 1px 0px hsla(  0,   0%, 100%, 0.8)!important;
+	color: hsl(0, 100%, 0%);
 }
 
-.wrapper{
-	margin:auto;
-	width:960px;
+.scraxmenu ul li span a:active {
+	color: hsl(0, 0%, 20%);
 }
 
-header nav{
-	position:absolute;
-	right:10px;
-	margin-top:-35px;
-	padding:15px 7.5px;
-	border:1px solid rgb(255,255,255);
-	border:1px solid rgba(255,255,255,.2);
-	border-radius:0em 0em 0.8em 0.8em;
-	background-color:rgb(255,255,255);
-	background-color:rgba(255,255,255,.2);
-	z-index:100000;		
+.scraxmenu ul li:hover a{
+	text-shadow: 
+		0px -1px 0px hsla(  0,   0%, 100%, 0.8), 
+		0px  0px 6px hsla(100,  50%,  80%, 0.8);
 }
 
-header nav ul{
-}
-
-header nav ul li{
-	display:inline;
-	margin:-2px;
-}
-
-header nav:hover{
-	margin-top:-1px;
-}
-
-header nav{
-	margin-top:-35px;
-}
-
-nav a{
-	padding:15px 7.5px;
-	color:white;
-	text-decoration:underline;
-}
-
-
-
-
-
-
-
-/* =============================================================================
-   Non-semantic helper classes
-   Please define your styles before this section.
-   ========================================================================== */
-
-/* For image replacement */
-.ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
-.ir br { display: none; }
-
-/* Hide for both screenreaders and browsers:
-   css-discuss.incutio.com/wiki/Screenreader_Visibility */
-.hidden { display: none; visibility: hidden; }
-
-/* Hide only visually, but have it available for screenreaders: by Jon Neal.
-  www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden */
-.visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
-
-/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: drupal.org/node/897638 */
-.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
-
-/* Hide visually and from screenreaders, but maintain layout */
-.invisible { visibility: hidden; }
-
-/* Contain floats: nicolasgallagher.com/micro-clearfix-hack/ */ 
-.clearfix:before, .clearfix:after { content: ""; display: table; }
-.clearfix:after { clear: both; }
-.clearfix { zoom: 1; }
-
-
-
-/* =============================================================================
-   PLACEHOLDER Media Queries for Responsive Design.
-   These override the primary ('mobile first') styles
-   Modify as content requires.
-   ========================================================================== */
-
-@media only screen and (min-width: 480px) {
-  /* Style adjustments for viewports 480px and over go here */
-
-}
-
-@media only screen and (min-width: 768px) {
-  /* Style adjustments for viewports 768px and over go here */
-
-}
-
-
-/* =============================================================================
-   Print styles.
-   Inlined to avoid required HTTP connection: www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
- 
-@media print {
-  * { background: transparent !important; color: black !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } /* Black prints faster: sanbeiji.com/archives/953 */
-  a, a:visited { color: #444 !important; text-decoration: underline; }
-  a[href]:after { content: " (" attr(href) ")"; }
-  abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }  /* Don't show links for images, or javascript/internal links */
-  pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; } /* css-discuss.incutio.com/wiki/Printing_Tables */
-  tr, img { page-break-inside: avoid; }
-  img { max-width: 100% !important; }
-  @page { margin: 0.5cm; }
-  p, h2, h3 { orphans: 3; widows: 3; }
-  h2, h3{ page-break-after: avoid; }
+.scraxmenu ul li:active a{
+	text-shadow: 
+		0px  1px 0px hsla(  0,   0%, 100%, 0.8);
 }
