@@ -1,0 +1,129 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="it"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="it"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="it"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="it"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>{Titolo Pagina}</title>
+	<meta name="description" content="{descrizione contenuto pagina}">
+	<meta name="author" content="{autore contenuto pagina}">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/flickrbomb.css">
+
+	<script src="js/libs/modernizr-2.0.min.js"></script>
+	<script src="js/libs/respond.min.js"></script>
+<!-- Orbit CSS Slideshow-->
+	<link rel="stylesheet" href="css/orbit-1.2.3.css">
+	<!-- Attach necessary JS -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+		<script type="text/javascript" src="js/libs/jquery.orbit-1.2.3.min.js"></script>
+					<!--[if IE]>
+			     <style type="text/css">
+			         .timer { display: none !important; }
+			         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+			         
+			         </style>
+			<![endif]-->
+		
+	<!-- Run the plugin -->
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#featured').orbit();
+		});
+	</script> 
+		<style type="text/css">body { font-family: Helvetica, Verdana, Arial, sans-serif; margin: 0; font-size: 1em; line-height: 1.231; }
+</style>
+</head>
+<body>
+    <img src="img/background1.jpg" class="bg">
+	<div id="header-container">
+		<header class="wrapper">
+			<h1 id="title"><a href="index.html">{Nome Sito}</a></h1>
+			<p>{Sottotitolo Pagina}</p>
+		</header>
+	</div>
+
+	<div id="main" class="wrapper">
+		<aside>
+			<h3>{Titolo Laterale}</h3>
+			<p>{Testo Laterale}</p>
+		</aside>
+		<article>
+<!-- =======================================
+THE ACTUAL ORBIT SLIDER CONTENT 
+======================================= >
+			<div class="container">	
+				<div id="featured"> 
+					<img src="img/portfolio/{Autore}/1.jpg" width="720" height="720" data-caption="#DescImm1"/>
+					<img src="img/portfolio/{Autore}/2.jpg" width="720" height="720" data-caption="#DescImm2"/>
+					<img src="img/portfolio/{Autore}/3.jpg" width="720" height="720" data-caption="#DescImm3"/>
+					<img src="img/portfolio/{Autore}/1.jpg" width="720" height="720" data-caption="#DescImm4"/>
+					<img src="img/portfolio/{Autore}/2.jpg" width="720" height="720" data-caption="#DescImm5"/>
+					<img src="img/portfolio/{Autore}/3.jpg" width="720" height="720" data-caption="#DescImm6"/>
+				</div>
+
+				<span class="orbit-caption" id="DescImm1"><header>{Titolo Immagine 1}</header><strong>{Titolo Descrizione Immagine 1}</strong>{Descr. Immagine in HTML (inline)}</span>
+				<span class="orbit-caption" id="DescImm2"><header>{Titolo Immagine 2}</header><strong>{Titolo Descrizione Immagine 2}</strong><p>I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</p></span>
+				<span class="orbit-caption" id="DescImm3"><header>{Titolo Immagine 3}</header><strong>{Titolo Descrizione Immagine 3}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+				<span class="orbit-caption" id="DescImm4"><header>{Titolo Immagine 4}</header><strong>{Titolo Descrizione Immagine 4}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+				<span class="orbit-caption" id="DescImm5"><header>{Titolo Immagine 5}</header><strong>{Titolo Descrizione Immagine 5}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+				<span class="orbit-caption" id="DescImm6"><header>{Titolo Immagine 6}</header><strong>{Titolo Descrizione Immagine 6}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+			</div>
+< =======================================
+THE ACTUAL ORBIT SLIDER CONTENT 
+======================================= -->
+			
+			<footer>
+				<div class="social">
+					<ul>
+						<li><a href="#"><img src="img/social/facebook.gif" alt="facebook"/></a><span>facebook</span></li>
+						<li><a href="#"><img src="img/social/twitter.gif" alt="twitter"/></a><span>twitter</span></li>
+						<li><a href="#"><img src="img/social/googleplus.gif" alt="google+"/></a><span>google+</span></li>
+						<li><a href="#"><img src="img/social/diaspora.gif" alt="diaspora"/></a><span>diaspora</span></li>
+					</ul>
+				</div>
+                <h3>{Info contenuti}</h3>
+				<p>{Testo Contenuti}</p>
+			</footer>
+		</article>
+	</div>
+	<hr style="visibility:collapse;">
+	<div id="footer-container">
+		<footer class="wrapper">
+			{copyright} 
+		</footer>
+	</div>
+<!-- INIZIO SCRAXMENU -->
+<div class="scraxmenu">
+	<ul>
+	<li><a href="index.html">Home</a><span>http://www.61c13553.con</span></li>
+	<hr>
+	<li><a href="portfoli.html">Portfoli</a><span><a href="scrax.html">Scrax</a> | <a href="436.html">436</a> | <a href="stey.html">STEY</a></span></li>
+	<hr>
+	<li><a href="http://altrotest.tumblr.com/">Blog</a><span>Last news from BCS</span></li>
+	<hr>
+	<li><a href="tomton.html">Writing</a><span>Writers related</span></li>
+	<hr>
+	<li><a href="#">Projects</a><span>Experiments going on</span></li>
+	<li id="moreinfo">BICIESSE MENU</li>
+	</ul>
+</div>
+<!-- FINE SCRAXMENU -->
+
+<script src="js/script.js"></script>
+
+<!--[if lt IE 7 ]>
+	<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.2/CFInstall.min.js"></script>
+	<script>window.attachEvent("onload",function(){CFInstall.check({mode:"overlay"})})</script>
+<![endif]-->
+<script src="js/libs/jquery.flickrBomb.min.js"></script>
+</body>
+</html>
