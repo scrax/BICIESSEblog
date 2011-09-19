@@ -2,9 +2,11 @@ Questo è l'elenco dei contenuti di ogni pagina portfolio con slideshow.
 Per ogni immagine viene visualizzato il titolo relativo,e un campo dove inserire il testo.
 Dovete mettere tra le grafe il testo che volete per ognuna delle sei immagini con lato lung max 720 per lo slideshow, 
 per il "full screen" devo ancora vedere bene cos'è meglio.
-Le prime tre non appaiono nella pagina, sono per i motori di ricerca e per il browser (il titolo del tab  o della finestra è il titolo pagina.)
+Alcune voci non appaiono nella pagina, sono per i motori di ricerca e per il browser (il titolo del tab  o della finestra è il titolo pagina.)
 Quelle già inseriti sono comuni a tutto il sito.
-Se volete capire meglio come funziona la faccenda guardatevi la mia pagina per un'anteprima, e la pagina tema_base.html da github per vedere dove vanno a finire le cose che inerite nell'html finale.s
+Se volete capire meglio come funziona la faccenda guardatevi la mia pagina per un'anteprima, e la pagina tema_base.html da github per vedere dove vanno a finire le cose che inserite nell'html finale.
+
+--------------------------------------
 
 ##PARTE ''INVISIBILE''
 {Titolo Pagina}=""
@@ -34,3 +36,4 @@ Se volete capire meglio come funziona la faccenda guardatevi la mia pagina per u
 ##COMUNI
 {autore contenuto pagina}="biciesse graphics"
 {copyright}="(c)2011 BiCiEsse Graphics. -  All Rights reserved - P.IVA 1324567890"
+
