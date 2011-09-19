@@ -1,0 +1,36 @@
+Questo è l'elenco dei contenuti di ogni pagina portfolio con slideshow. 
+Per ogni immagine viene visualizzato il titolo relativo,e un campo dove inserire il testo.
+Dovete mettere tra le grafe il testo che volete per ognuna delle sei immagini con lato lung max 720 per lo slideshow, 
+per il "full screen" devo ancora vedere bene cos'è meglio.
+Le prime tre non appaiono nella pagina, sono per i motori di ricerca e per il browser (il titolo del tab  o della finestra è il titolo pagina.)
+Quelle già inseriti sono comuni a tutto il sito.
+Se volete capire meglio come funziona la faccenda guardatevi la mia pagina per un'anteprima, e la pagina tema_base.html da github per vedere dove vanno a finire le cose che inerite nell'html finale.s
+
+##PARTE ''INVISIBILE''
+{Titolo Pagina}=""
+{descrizione contenuto pagina}="" (in poche parole)
+
+##PARTE VISIBILE
+{Nome Sito}="BICIESSE prod."
+{Sottotilo Pagina}="" (es.: Le nostre realizzazioni / our works)
+{Titolo Laterale}="" (facoltativo)
+{Testo Laterale}=""  (facoltativo)
+{Autore}="" (es.: Scrax)
+{Titolo Immagine 1}=""
+{Titolo Descrizione Immagine 1}=""
+{Titolo Immagine 2}=""
+{Titolo Descrizione Immagine 2}=""
+{Titolo Immagine 3}=""
+{Titolo Descrizione Immagine 3}=""
+{Titolo Immagine 4}=""
+{Titolo Descrizione Immagine 4}=""
+{Titolo Immagine 5}=""
+{Titolo Descrizione Immagine 5}=""
+{Titolo Immagine 6}=""
+{Titolo Descrizione Immagine 6}=""
+{Info contenuti}="" (es.: Fotografia Urbana / Street Photografy)
+{Testo contenuti}="" (es.: Questo setdi un albam blablablba)
+
+##COMUNI
+{autore contenuto pagina}="biciesse graphics"
+{copyright}="(c)2011 BiCiEsse Graphics. -  All Rights reserved - P.IVA 1324567890"
