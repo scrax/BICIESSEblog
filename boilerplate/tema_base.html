@@ -25,7 +25,6 @@
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/bcs.css">
-  <link rel="stylesheet" href="css/fullpage.css">
   <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/flickrbomb.css">
   <!-- end CSS-->
@@ -40,67 +39,58 @@
 </head>
 
 <body>
-  <img src="img/background1.jpg" class="bg">
+
   <div id="container">
-    <header>
+    <img src="img/background1.jpg" class="bg">
+	<div id="header-container">
+		<header class="wrapper">
 			<h1 id="title"><a href="index.html">{Nome Sito}</a></h1>
 			<span>{Sottotitolo Pagina}</span>
+		</header>
+	</div>
 
-    </header>
-<!-- AddThis Button BEGIN -->
-<div class="social addthis_toolbox addthis_default_style ">
-<a class="addthis_button_preferred_1"></a>
-<a class="addthis_button_preferred_2"></a>
-<a class="addthis_button_preferred_3"></a>
-<a class="addthis_button_preferred_4"></a>
-<a class="addthis_button_compact"></a>
-<a class="addthis_counter addthis_bubble_style"></a>
-</div>
-<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4e7a2c2953de9378"></script>
-<!-- AddThis Button END -->
-	<article>
-	    <div id="main" role="main">
-	<!-- =======================================
-	THE ACTUAL ORBIT SLIDER CONTENT 
-	======================================= -->
-				<div class="container">	
-					<div id="featured"> 
-						<div id="lavori" class="page" data-caption="#DescImm2" data-thumb="lavori.jpg">
-						    <footer>
-					                <h3>BICIESSE people</h3>
-									<p>Qui trovate i portfoli di ogni membro attivo in BICIESSE. Da quelli fotografici, a pittorici, sperimantali ecc. Buona lettura</p>
-									<p>Per questa pagina mi serve un banner 900x364 px. L'immagine è doppia, cioè la metà alta viene visualizzata caricando la pagina e la metà bassa appare quando ci si va sopra col mouse. Nella parte alta metterei delle striscie inclicate a 60° alte una 30ina di pixel che riempiono il banner come anteprime delle immagini del portfolio. Nella parte bass invece metteri il titolo del portfolio o del autore tipo nero su bianco con un font da titolo stile impact per capirci.gli arcobaleni postati son di esempio.</p>
-						    </footer>
-								<div class="membri">
-								    <a href="../scrax.html"><img src="img/scrax.jpg" alt="scrax" /></a>
-								    <a href="../tom.html"><img src="img/tom.jpg" alt="tom" /></a>
-								    <a href="../stey.html"><img src="img/stey.jpg" alt="stey" /></a>
-								</div>
-								<hr style="clear:both; visibility:hidden;">
-						</div>
-						<div id="chisiamo" class="page" data-thumb="chisiamo.jpg">
-						    <footer>
-							    <h3>{Info contenuti}</h3>
-								<p>{Testo Contenuti}</p>
-						    </footer>
-						</div>
-						<div id="contatti" class="page" data-thumb="contatti.jpg">
-						    <footer>
-							    <h3>{Info contenuti}</h3>
-								<p>{Testo Contenuti}</p>
-						    </footer>
-						</div>
-					</div>
+	<div id="main" class="wrapper">
+		<!--aside>
+			<h3>{Titolo Laterale}</h3>
+			<p>{Testo Laterale}</p>
+		</aside-->
+		<article>
+<!-- =======================================
+THE ACTUAL ORBIT SLIDER CONTENT 
+======================================= -->
+			<div class="container">	
+				<div id="featured"> 
+					<img src="img/portfolio/{Autore}/1.jpg" width="720" height="720" data-caption="#DescImm1"/>
+					<img src="img/portfolio/{Autore}/2.jpg" width="720" height="720" data-caption="#DescImm2"/>
+					<img src="img/portfolio/{Autore}/3.jpg" width="720" height="720" data-caption="#DescImm3"/>
+					<img src="img/portfolio/{Autore}/1.jpg" width="720" height="720" data-caption="#DescImm4"/>
+					<img src="img/portfolio/{Autore}/2.jpg" width="720" height="720" data-caption="#DescImm5"/>
+					<img src="img/portfolio/{Autore}/3.jpg" width="720" height="720" data-caption="#DescImm6"/>
 				</div>
-	<!-- =======================================
-	THE ACTUAL ORBIT SLIDER CONTENT 
-	======================================= -->
-	    </div>
-    </article>
-  </div> <!--! end of #container -->
-		<footer id="footer-container">
+
+				<span class="orbit-caption" id="DescImm1"><header>{Titolo Immagine 1}</header><strong>{Titolo Descrizione Immagine 1}</strong>{Descr. Immagine in HTML (inline)}</span>
+				<span class="orbit-caption" id="DescImm2"><header>{Titolo Immagine 2}</header><strong>{Titolo Descrizione Immagine 2}</strong><p>I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</p></span>
+				<span class="orbit-caption" id="DescImm3"><header>{Titolo Immagine 3}</header><strong>{Titolo Descrizione Immagine 3}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+				<span class="orbit-caption" id="DescImm4"><header>{Titolo Immagine 4}</header><strong>{Titolo Descrizione Immagine 4}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+				<span class="orbit-caption" id="DescImm5"><header>{Titolo Immagine 5}</header><strong>{Titolo Descrizione Immagine 5}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+				<span class="orbit-caption" id="DescImm6"><header>{Titolo Immagine 6}</header><strong>{Titolo Descrizione Immagine 6}</strong> I can haz <a href="#">links</a>, <em>style</em> or anything that is valid markup :)</span>
+			</div>
+<!-- =======================================
+THE ACTUAL ORBIT SLIDER CONTENT 
+======================================= -->
+			
+			<footer>
+                <h3>{Info contenuti}</h3>
+				<p>{Testo Contenuti}</p>
+			</footer>
+		</article>
+	</div>
+	<div id="footer-container">
+		<footer class="wrapper">
 			{copyright} 
 		</footer>
+	</div>
+  </div> <!--! end of #container -->
 <!-- INIZIO SCRAXMENU -->
 <div class="scraxmenu">
 	<ul>
@@ -130,13 +120,12 @@
   <script defer src="js/plugins.js"></script>
   <script defer src="js/script.js"></script>
   <!-- end scripts-->
-
 <!-- Orbit CSS Slideshow-->
   <link rel="stylesheet" href="css/orbit-1.2.3.css">
 	<!-- Attach necessary JS -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-		<script type="text/javascript" src="js/mylibs/jquery.orbit-1.2.3.min.js"></script>
+		<script type="text/javascript" src="js/libs/jquery.orbit-1.2.3.min.js"></script>
 					<!--[if IE]>
 			     <style type="text/css">
 			         .timer { display: none !important; }
@@ -144,16 +133,9 @@
 			         
 			         </style>
 			<![endif]-->
-	<!-- Run the plugin --> <script type="text/javascript">	
-	$(window).load(function() {
-     $('#featured').orbit({
-	  'bullets' : true,		
-	  'bulletThumbs': true,
-      'bulletThumbLocation': '../img/orbit/'
-     });
-});
-</script> 
+	<!-- Run the plugin --> <script type="text/javascript">	$(window).load(function() {$('#featured').orbit();});</script> 
 <!--End Orbit CSS Slideshow-->
+
 	
   <!-- Change UA-XXXXX-X to be your site's ID >
   <script>

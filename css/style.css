@@ -33,7 +33,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -
 
 body { font-family: sans-serif; margin: 0; font-size: 1em; line-height: 1; }
 
-body, button, input, select, textarea { font-family: 'Rationale', cursive; color: #ddd; }
+body, button, input, select, textarea { font-family: 'Rationale', Arial Narrow, Arial, sans-serif, cursive; color: #ddd; }
 
 /* 
  * These selection declarations have to be separate
@@ -319,9 +319,11 @@ our demo gets from this sheet) */
 .container {
 	height:480px;
     position: relative; 
-    top: 35px; 
+    top: 60px; 
     left: 0px;
-    margin: 0; padding:0;
+    margin: 0; 
+    padding:0;
+    padding-bottom: 50px;
     z-index: 0; }
     
 .content { background: url(dummy-images/coffee.jpg); }
@@ -431,8 +433,8 @@ h3{font-size: 2em;}
 #title {
 	font-size: 60px;
 	color:rgba(255,255,255,.3);
-	float:left;
-	margin-top:5px;
+	margin:0;
+	padding-top: .2em;
 	text-shadow: 2px 2px rgba(0,0,0,.3);
 }
 #title a{
@@ -442,22 +444,20 @@ h3{font-size: 2em;}
 }
 
 #header-container{
-	position:relative;
-	top:-16px;
 	background-color:hsla(0,0%,10%,0.4);
-	height:100px;
 	   -moz-box-shadow:0 40px 40px -40px #AAA;
-	        box-shadow:0 40px 40px -40px #AAA;
+	        box-shadow:0 2em 2em -1.8em #AAA;
 }
 
 #header-container header p{
+	height:3.4em;
 	font-size:1.3em;
-	1float:right;
-	position:relative;
-	top:33px;
 	text-align:right;
 	opacity:0.5;
 	font-weight:bold;
+	margin: 0;
+	padding-top: 1em;
+	padding-right:10px;
 }
 
 .wrapper{
