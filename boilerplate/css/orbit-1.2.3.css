@@ -10,7 +10,7 @@
    ================================================== */
 #featured { 
 	width: 920px;
-	height: 920px ;
+	height: 780px ;
 	background: url('orbit/loading.gif') no-repeat center center;
 	overflow: hidden; 
 	z-index: 999;}
@@ -55,7 +55,7 @@ div.orbit>a {
     top: 0;
     left: 0;
     width: 920px;
-    height: 920px; }
+    height: 780px; }
 
 /* Note: If your slider only uses content or anchors, you're going to want to put the width and height declarations on the ".orbit>div" and "div.orbit>a" tags in addition to just the .orbit-wrapper */
 
@@ -212,13 +212,14 @@ div.slider-nav span.left {
     
 .orbit-bullets li.has-thumb {
     left: 0px;
-    top: -990px;
+    top: -858px;
     position: relative;
     background: none;
     width: 200px;
     height: 60px;
-    opacity: 0.3; }
+    opacity: 0.3; 
+    border-radius: 5px;}
 
 .orbit-bullets li.active.has-thumb {
-    top: -1000px;
-    background-position: 0 0; }
+    background-position: 0 0;
+    opacity: 0.5;  }
