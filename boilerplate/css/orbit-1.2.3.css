@@ -25,6 +25,10 @@
    ================================================== */
 
 div.orbit-wrapper {
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
     background-color: black;
     width: 1px;
     height: 1px;
@@ -211,15 +215,26 @@ div.slider-nav span.left {
     background-position: -8px 0; }
     
 .orbit-bullets li.has-thumb {
-    left: 0px;
-    top: -858px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    border-left-color: white;
+    border-bottom-color: black;
+    border-right-color: white;
+    border-top-color: white;
+    border-left-width: 0px;
+    border-bottom-width: 2px;
+    border-right-width: 0px;
+    border-top-width: 2px;
+    left: 120px;
+    top: -868px;
     position: relative;
     background: none;
     width: 200px;
     height: 60px;
-    opacity: 0.3; 
-    border-radius: 5px;}
-
+    opacity: 0.5; 
+}
 .orbit-bullets li.active.has-thumb {
     background-position: 0 0;
-    opacity: 0.5;  }
+    opacity: 1;  }
