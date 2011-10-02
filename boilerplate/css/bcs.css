@@ -318,3 +318,12 @@ article header{
 #page{
 	padding: 5px;
 }
+
+#contatti {
+	right: 160px;
+	padding: 4px;
+	top: 10px;
+	position: absolute;
+	background-color: white;
+}
+
