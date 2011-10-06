@@ -101,6 +101,51 @@ article footer:hover {
     z-index: 10;
 }
 
+.portfoli ul {}
+.portfoli li { display: inline;}
+.portfoli li img {}
+	
+	.tools{
+		font-size: 1.3em;
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		left: 140px;
+		position: relative;
+		line-height: normal;
+		text-transform: uppercase;
+		top: -50px;
+		width: 620px;
+	}
+	.tools li{
+		display: inline;
+	}
+	.tools a{
+		font-weight: bold;
+		padding: 5px;
+		margin: -5px;
+		text-decoration: none;
+		color: #f4f4f4;
+	}
+	.tools a:active, .tools a:hover{
+		color: #121212;
+		text-shadow: 0px 0px 6px white;
+	}
+	.SlideTab{
+		height: 1200px;
+		width: 900px;
+		padding: 5px;
+	}
+	.sin{
+		padding: 10px;
+		width: 60%;
+		margin: 10px;
+		float: left;
+	}
+	.clear{
+		clear: both;
+	}
+
 /* =============================================================================
    Slideshow
    ========================================================================== */

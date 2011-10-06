@@ -24,7 +24,6 @@
   <!-- CSS: implied media=all -->
   <!-- CSS concatenated and minified via ant build script-->
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/menu.css">
   <link rel="stylesheet" href="css/bcs.css">
   <link rel="stylesheet" href="css/fullpage.css">
   <!--link rel="stylesheet" href="css/flickrbomb.css">
@@ -41,35 +40,12 @@
 		<!-- Attach our CSS -->
 	  	<link rel="stylesheet" href="css/reveal.css">	
 <!--FINE MODAL WINDOW-->	
+<style type="text/css">
+</style>
 </head>
 
 <body>
   <img src="img/background1.jpg" class="bg">
-<!--INZIO chi siamo WINDOW-->	
-    <a href="#" data-reveal-id="kisiamo" id="chisiamo">Chi Siamo</a>
-	<div id="kisiamo" class="reveal-modal" style="width:60%;">
-	<h1>chisiamo</h1>
-	<img src="img/logo.png" style="float:left; width:240px;">
-	<ul style="text-align:left;">
-		<li>Email: info@bcsemail.it</li>
-		<li>Cell: 3466621568</li>
-		<li>home: 132456</li>
-		<li>more: rehterngs</li>
-	</ul>
-	<a class="close-reveal-modal">&#215;</a>
-	</div>
-<!--INZIO contatti WINDOW-->	
-    <a href="#" data-reveal-id="myModal" id="contatti">Contatti</a>
-	<div id="myModal" class="reveal-modal" style="width:60%;">
-	<h1>Contatti</h1>
-	<img src="img/logo.png" style="float:left; width:240px;">	<ul style="text-align:left;">
-		<li>Email: info@bcsemail.it</li>
-		<li>Cell: 3466621568</li>
-		<li>home: 132456</li>
-		<li>more: rehterngs</li>
-	</ul>
-	<a class="close-reveal-modal">&#215;</a>
-	</div>
 <!-- AddThis Button BEGIN -->
 <div class="social addthis_toolbox addthis_default_style ">
 <a class="addthis_button_preferred_1"></a>
@@ -88,57 +64,134 @@
     </header>
 	<article>
 	    <div id="main" role="main">
-	<!-- =======================================
-	THE ACTUAL ORBIT SLIDER CONTENT 
-	======================================= >
-				<div class="container">	
-					<div id="featured"> 
-						<div id="lavori" class="page" data-caption="#DescImm2" data-thumb="lavori.jpg"-->
-					                <h3>BICIESSE people</h3>
-									<p>Qui trovate i portfoli di ogni membro attivo in BICIESSE. Da quelli fotografici, a pittorici, sperimantali ecc. Buona lettura</p>
-									<p>Per questa pagina mi serve un banner 900x364 px. L'immagine è doppia, cioè la metà alta viene visualizzata caricando la pagina e la metà bassa appare quando ci si va sopra col mouse. Nella parte alta metterei delle striscie inclicate a 60° alte una 30ina di pixel che riempiono il banner come anteprime delle immagini del portfolio. Nella parte bass invece metteri il titolo del portfolio o del autore tipo nero su bianco con un font da titolo stile impact per capirci.gli arcobaleni postati son di esempio.</p>
-								<div class="membri">
-								    <a href="user.html"><img src="img/scrax.jpg" alt="scrax" /></a>
-								    <a href="../tom.html"><img src="img/tom.jpg" alt="tom" /></a>
-								    <a href="../stey.html"><img src="img/stey.jpg" alt="stey" /></a>
-								</div>
-								<hr style="clear:both; visibility:hidden;">
-						<!--/div>
-						<div id="chisiamo" class="page" data-thumb="chisiamo.jpg">
-							    <h3>{Info contenuti}</h3>
-								<p>{Testo Contenuti}</p>
-						</div>
-					</div>
-				</div-->
-	<!-- =======================================
-	THE ACTUAL ORBIT SLIDER CONTENT 
-	======================================= -->
+			<ul class="tools">
+				<!--li><a class="Nav" rel="-1" href="#">&#171;</a></li-->
+				<li><a class="tabSelect" href="#Tab0" rel="0">Home</a> - </li>
+				<li><a class="tabSelect" href="#Tab1" rel="1">Chi siamo</a> - </li>
+				<li><a class="tabSelect" href="#contat" rel="2">Contatti</a> - </li>		
+				<li><a class="external" href="http://altrotest.tumblr.com/" rel="3">Blog</a></li>		
+				<!--li><a class="Nav" rel="1" href="#">&#187;</a></li-->
+			</ul>
+<!-- Primo tab -->
+			<div class="SlideTab" id="Tab0">
+				<h3>Home</h3>
+				<p>Qui trovate i portfoli di ogni membro attivo in BICIESSE. Da quelli fotografici, a pittorici, sperimantali ecc. Buona lettura</p>
+				<p>Per questa pagina mi serve un banner 900x364 px.</p>
+				<div class="membri">
+				    <a href="user.html"><img src="img/scrax.jpg" alt="scrax" /></a>
+				    <a href="../tom.html"><img src="img/tom.jpg" alt="tom" /></a>
+				    <a href="../stey.html"><img src="img/stey.jpg" alt="stey" /></a>
+				    <a href="../stey.html"><img src="img/stey.jpg" alt="stey" /></a>
+				</div>
+			</div>
+<!-- Secondo tab -->
+			<div class="SlideTab" id="Tab1">
+				<h3>Chi Siamo</h3>
+				<p>Qui metteremo la storia o altro su BICIESSE. Buona lettura</p>
+				<p>DA inserire informazioni su bcs.</p>
+				<hr class="clear">
+				<div class="sin">
+					<h2>Utente</h2>
+					<p>Alessio Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>			
+				<h3>Moda</h3>
+				<ul class="portfoli">
+					<li><a href="#" data-reveal-id="moda0" ><img src="img/portfolio/scrax/moda/tb-pf_moda-0.jpg" alt="portfolio0"></a></li>
+					<li><a href="#" data-reveal-id="moda1" ><img src="img/portfolio/scrax/moda/tb-pf_moda-1.jpg" alt="portfolio1"></a></li>
+					<li><a href="#" data-reveal-id="moda2" ><img src="img/portfolio/scrax/moda/tb-pf_moda-2.jpg" alt="portfolio2"></a></li>
+					<li><a href="#" data-reveal-id="moda3" ><img src="img/portfolio/scrax/moda/tb-pf_moda-3.jpg" alt="portfolio3"></a></li>
+				</ul>
+				<h4>Altro</h4>
+				<ul class="portfoli">
+					<li><a href="#" data-reveal-id="moda0" ><img src="img/portfolio/scrax/moda/tb-pf_moda-0.jpg" alt="portfolio0"></a></li>
+					<li><a href="#" data-reveal-id="moda1" ><img src="img/portfolio/scrax/moda/tb-pf_moda-1.jpg" alt="portfolio1"></a></li>
+					<li><a href="#" data-reveal-id="moda2" ><img src="img/portfolio/scrax/moda/tb-pf_moda-2.jpg" alt="portfolio2"></a></li>
+					<li><a href="#" data-reveal-id="moda3" ><img src="img/portfolio/scrax/moda/tb-pf_moda-3.jpg" alt="portfolio3"></a></li>
+				</ul>
+<!--INZIO MODAL WINDOW-->	
+				<div id="moda0" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-0.jpg" alt="photo0" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda1" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-1.jpg" alt="photo1" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda2" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-2.jpg" alt="photo2" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda3" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-3.jpg" alt="photo3" /><a class="close-reveal-modal">&#215;</a></div>
+				<hr class="clear">
+				<div class="sin">
+					<h2>Utente</h2>
+					<p>Tom Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+				</div>			
+				<h3>Moda</h3>
+				<ul class="portfoli">
+					<li><a href="#" data-reveal-id="moda0" ><img src="img/portfolio/scrax/moda/tb-pf_moda-0.jpg" alt="portfolio0"></a></li>
+					<li><a href="#" data-reveal-id="moda1" ><img src="img/portfolio/scrax/moda/tb-pf_moda-1.jpg" alt="portfolio1"></a></li>
+					<li><a href="#" data-reveal-id="moda2" ><img src="img/portfolio/scrax/moda/tb-pf_moda-2.jpg" alt="portfolio2"></a></li>
+					<li><a href="#" data-reveal-id="moda3" ><img src="img/portfolio/scrax/moda/tb-pf_moda-3.jpg" alt="portfolio3"></a></li>
+				</ul>
+				<h4>Altro</h4>
+				<ul class="portfoli">
+					<li><a href="#" data-reveal-id="moda0" ><img src="img/portfolio/scrax/moda/tb-pf_moda-0.jpg" alt="portfolio0"></a></li>
+					<li><a href="#" data-reveal-id="moda1" ><img src="img/portfolio/scrax/moda/tb-pf_moda-1.jpg" alt="portfolio1"></a></li>
+					<li><a href="#" data-reveal-id="moda2" ><img src="img/portfolio/scrax/moda/tb-pf_moda-2.jpg" alt="portfolio2"></a></li>
+					<li><a href="#" data-reveal-id="moda3" ><img src="img/portfolio/scrax/moda/tb-pf_moda-3.jpg" alt="portfolio3"></a></li>
+				</ul>
+<!--INZIO MODAL WINDOW-->	
+				<div id="moda0" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-0.jpg" alt="photo0" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda1" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-1.jpg" alt="photo1" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda2" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-2.jpg" alt="photo2" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda3" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-3.jpg" alt="photo3" /><a class="close-reveal-modal">&#215;</a></div>
+				<hr class="clear">
+				<div class="sin">
+					<h2>Utente</h2>
+					<p>Gaio Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+				</div>			
+				<h3>Moda</h3>
+				<ul class="portfoli">
+					<li><a href="#" data-reveal-id="moda0" ><img src="img/portfolio/scrax/moda/tb-pf_moda-0.jpg" alt="portfolio0"></a></li>
+					<li><a href="#" data-reveal-id="moda1" ><img src="img/portfolio/scrax/moda/tb-pf_moda-1.jpg" alt="portfolio1"></a></li>
+					<li><a href="#" data-reveal-id="moda2" ><img src="img/portfolio/scrax/moda/tb-pf_moda-2.jpg" alt="portfolio2"></a></li>
+					<li><a href="#" data-reveal-id="moda3" ><img src="img/portfolio/scrax/moda/tb-pf_moda-3.jpg" alt="portfolio3"></a></li>
+				</ul>
+				<h4>Altro</h4>
+				<ul class="portfoli">
+					<li><a href="#" data-reveal-id="moda0" ><img src="img/portfolio/scrax/moda/tb-pf_moda-0.jpg" alt="portfolio0"></a></li>
+					<li><a href="#" data-reveal-id="moda1" ><img src="img/portfolio/scrax/moda/tb-pf_moda-1.jpg" alt="portfolio1"></a></li>
+					<li><a href="#" data-reveal-id="moda2" ><img src="img/portfolio/scrax/moda/tb-pf_moda-2.jpg" alt="portfolio2"></a></li>
+					<li><a href="#" data-reveal-id="moda3" ><img src="img/portfolio/scrax/moda/tb-pf_moda-3.jpg" alt="portfolio3"></a></li>
+				</ul>
+<!--INZIO MODAL WINDOW-->	
+				<div id="moda0" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-0.jpg" alt="photo0" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda1" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-1.jpg" alt="photo1" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda2" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-2.jpg" alt="photo2" /><a class="close-reveal-modal">&#215;</a></div>
+				<div id="moda3" class="reveal-modal"><img src="img/portfolio/scrax/moda/pf_moda-3.jpg" alt="photo3" /><a class="close-reveal-modal">&#215;</a></div>
+				<hr class="clear">
+			</div>
+			<div class="SlideTab" id="contat"><h1>Contatti</h1></div>
+			<div class="SlideTab" id="gaio2"><h1>FINE</h1></div>
 	    </div>
     </article>
   </div> <!--! end of #container -->
 		<footer id="footer-container">
 			{copyright} 
 		</footer>
-<!-- INIZIO SCRAXMENU -->
-<div class="scraxmenu">
-	<ul>
-	<li><a href="index.html">Home</a><span>http://www.61c13553.con</span><hr></li>
-	
-	<li><a href="portfoli.html">Lavori</a><span><a href="scrax.html">Scrax</a> | <a href="tom.html">tom</a> | <a href="stey.html">STEY</a></span><hr></li>
-	
-	<li><a href="http://altrotest.tumblr.com/">Blog</a><span>Last news from BCS</span></li>	
-	<li id="moreinfo">MENU</li>
-	</ul>
-</div>
-<!-- FINE SCRAXMENU -->
-
 
   <!-- JavaScript at the bottom for fast page loading -->
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline
+ -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-
+<script type="text/javascript" src="js/mylibs/jquery.js"></script><script type="text/javascript">
+	$(function(){
+		$('.SlideTab').tabSwitch('create',{width: 920, height: 1200});
+		$('.tabSelect').click(function(e){
+			$('.SlideTab').tabSwitch('moveTo',{index: parseInt($(this).attr("rel"))});
+			e.preventDefault();
+		});
+		$('.Nav').click(function(e){
+			$('.SlideTab').tabSwitch('moveStep',{step: parseInt($(this).attr("rel"))});
+			e.preventDefault();
+		});
+	});
+</script>
+<script type="text/javascript" src="js/mylibs/jquery.tabSwitch.yui.js"></script>
 
   <!-- scripts concatenated and minified via ant build script-->
   <script defer src="js/plugins.js"></script>
@@ -147,38 +200,9 @@
 
 		<!-- Attach necessary scripts -->
 <script type="text/javascript" src="js/mylibs/jquery.reveal.js"></script>
-<!--FINE MODAL WINDOW-->	
-<!-- Orbit CSS Slideshow-->
-  <link rel="stylesheet" href="css/orbit-1.2.3.css">
-	<!-- Attach necessary JS -->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
-		<script type="text/javascript" src="js/mylibs/jquery.orbit-1.2.3.min.js"></script>
-					<!--[if IE]>
-			     <style type="text/css">
-			         .timer { display: none !important; }
-			         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
-			         
-			         </style>
-			<![endif]-->
-	<!-- Run the plugin --> <script type="text/javascript">	
-	$(window).load(function() {
-     $('#featured').orbit({
-	  'bullets' : true,		
-	  'bulletThumbs': true,
-      'bulletThumbLocation': '../img/orbit/'
-     });
-});
-</script> 
-<!--End Orbit CSS Slideshow-->
+<!--FINE MODAL WINDOW-->
+
 	
-  <!-- Change UA-XXXXX-X to be your site's ID >
-  <script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script-->
 
 
   <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6.
