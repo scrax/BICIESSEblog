@@ -37,7 +37,7 @@ div.orbit {
 
 div.orbit>img {
     position: absolute;
-    top: -10px;
+    top: 0px;
     left: 0;
     display: none; }
 
