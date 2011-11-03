@@ -10,7 +10,7 @@
    ================================================== */
 #featured { 
 	width: 720px;
-	height: 480px ;
+	height: 720px ;
 	background: #000 url('orbit/loading.gif') no-repeat center center;
 	overflow: hidden; 
 	z-index: 999;}
@@ -67,7 +67,7 @@ div.timer {
     height: 40px;
     overflow: hidden;
     position: relative;
-    top: -460px;
+    top: -620px;
     right: -680px;
     opacity: .6;
     cursor: pointer;
@@ -154,10 +154,10 @@ span.pause.active {
 	padding: 0px;
     font-size: 13px;
     position: relative;
-    left: 725px;
-    top: -520px;
-    width: 170px;
-    height:480px;
+    left: 720px;
+    top: -760px;
+    width: 180px;
+    height:720px;
     1overflow:scroll;
     1overflow-x:visible; }
 
@@ -169,18 +169,18 @@ div.slider-nav {
     display: block }
 
 div.slider-nav span {
-    width: 68px;
+    cursor: pointer;
     height: 100px;
-    text-indent: -9999px;
     position: absolute;
+    text-indent: -9999px;
+    top: 0px;
+    width: 68px;
     z-index: 1000;
-    top: 225px;
-    margin-top: -50px;
-    cursor: pointer; }
+}
 
 div.slider-nav span.right {
     background: url(orbit/right-arrow.png);
-    left: 655px; }
+    right: 0px; }
 
 div.slider-nav span.left {
     background: url(orbit/left-arrow.png);

@@ -317,7 +317,7 @@ will still work like a champ (except any content block needs a background which
 our demo gets from this sheet) */
 
 .container {
-	height:480px;
+	-height:480px;
     position: relative; 
     top: 60px; 
     left: 0px;
