@@ -13,11 +13,7 @@ body, button, input, select, textarea { font-family: 'Rationale', Arial Narrow, 
 }
 
 .membri {
-	padding-right: 10px;
-	padding-left: 10px;
 	text-align:center;
-	margin-top:20px;
-	padding-bottom:200px;
 }
 .membri a {
 		width: 920px; height:182px;
