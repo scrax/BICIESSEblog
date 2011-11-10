@@ -19,7 +19,7 @@ body, button, input, select, textarea { font-family: 'Rationale', Arial Narrow, 
 		width: 920px; height:182px;
 		overflow: hidden;
 		float: left;
-		margin:3px -10px;
+		margin:3px 0px;
 }
 .membri img {
     border: none;
@@ -91,9 +91,9 @@ article footer:hover {
 
 .social {
     position: absolute;
-    width:140px;
-    top: 10px; 
-    right: 10px;
+    width:138px;
+    top: 1%; 
+    right: 1%;
     z-index: 10;
 }
 
@@ -104,14 +104,11 @@ article footer:hover {
 	.tools{
 		font-size: 1.3em;
 		padding: 0px;
-		margin: 0px;
+		margin: 1%;
 		list-style-type: none;
-		left: 140px;
-		position: relative;
 		line-height: normal;
 		text-transform: uppercase;
-		top: -50px;
-		width: 620px;
+		width: 98%;
 	}
 	.tools li{
 		display: inline;
@@ -318,9 +315,8 @@ aside{
 }
 
 #main p{
-	width:100%;
-	margin:5px;
-	padding:3px;
+	margin:3px 10px;
+	padding:0px;
 }
 
 article {
