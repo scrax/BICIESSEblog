@@ -4,7 +4,8 @@ body, button, input, select, textarea { font-family: 'Rationale', Arial Narrow, 
 
 #container {margin:auto; width:940px; height:900px;
 }
-
+@media only screen and (min-device-width : 320px) and (max-device-width : 569px) {#container {margin:auto; width:320px; height:900px;
+}}
 @font-face {
   font-family: 'Rationale';
   font-style: normal;
