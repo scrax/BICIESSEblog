@@ -21,10 +21,6 @@ body, button, input, select, textarea { font-family: 'Rationale', Arial Narrow, 
 		float: left;
 		margin:3px 0px;
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 569px) {
-	#container {margin:auto; width:320px; height:900px;}
-	.membri a {width: 300px; height:182px;}
-}
 
 .membri img {
     border: none;
@@ -33,9 +29,7 @@ body, button, input, select, textarea { font-family: 'Rationale', Arial Narrow, 
     -moz-transition: all 0.8s ease-in-out;
     -o-transition: all 0.8s ease-in-out;
 }
-.membri a:hover img {
-    margin-top: -182px;
-}
+.membri a:hover img {margin-top: -182px;}
 				
 img.bg {
     /* Set rules to fill background */
@@ -129,7 +123,7 @@ article footer:hover {
 		color: #121212;
 		text-shadow: 0px 0px 6px white;
 	}
-	-.SlideTab{
+	.SlideTab{
 		height: 1200px;
 		width: 900px;
 		padding: 5px;
@@ -143,6 +137,13 @@ article footer:hover {
 	.clear{
 		clear: both;
 	}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 569px) {
+	#container {margin:auto; width:320px; height:900px;}
+	.membri a {width: 300px; height:60px;}
+	.membri a:hover img {margin-top: -60px;}
+	.SlideTab{height: 1200px;width: 300px;padding: 5px;}
+}
 
 /* =============================================================================
    Slideshow
