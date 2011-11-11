@@ -138,12 +138,6 @@ article footer:hover {
 		clear: both;
 	}
 
-@media only screen and (max-device-width : 320px)  {
-	#container {margin:auto; width:320px; height:900px;}
-	.membri a {width: 320px; height:60px;}
-	.membri a:hover img {margin-top: -60px;}
-	.SlideTab{height: 1200px;width: 320px;padding: 0px;}
-}
 
 /* =============================================================================
    Slideshow
@@ -378,3 +372,10 @@ article header{
 	background-color: white;
 }
 
+@media only screen and (max-device-width : 320px)  {
+	#container {margin:auto; width:320px; height:900px;}
+	.membri a {width: 320px; height:60px;}
+	.membri a:hover img {margin-top: -60px;}
+	.SlideTab{height: 1200px;width: 320px;padding: 0px;}
+	article {padding:0px;}
+}
