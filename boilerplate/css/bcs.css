@@ -376,6 +376,6 @@ article header{
 	#container {margin:auto; width:320px; height:900px;}
 	.membri a {width: 320px; height:60px;}
 	.membri a:hover img {margin-top: -60px;}
-	.SlideTab{height: 1200px;width: 320px;padding: 0px;}
+	.SlideTab{height: 1200px;width: 320px;}
 	article {padding:0px;}
 }
