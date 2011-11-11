@@ -140,9 +140,9 @@ article footer:hover {
 
 @media only screen and (min-device-width : 240px) and (max-device-width : 569px) {
 	#container {margin:auto; width:320px; height:900px;}
-	.membri a {width: 300px; height:60px;}
+	.membri a {width: 320px; height:60px;}
 	.membri a:hover img {margin-top: -60px;}
-	.SlideTab{height: 1200px;width: 300px;padding: 5px;}
+	.SlideTab{height: 1200px;width: 320px;padding: 0px;}
 }
 
 /* =============================================================================
