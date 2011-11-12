@@ -372,7 +372,7 @@ article header{
 	background-color: white;
 }
 
-@media only screen and (max-device-width : 320px)  {
+@media only screen and (mix-device-width : 320px) and (max-device-width : 480px) {
 	#container {margin:auto; width:320px; height:900px;}
 	.membri a {width: 320px; height:60px;}
 	.membri a:hover img {margin-top: -60px;}
