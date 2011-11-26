@@ -371,6 +371,11 @@ article header{
 	position: absolute;
 	background-color: white;
 }
+/*==================
+TEST VARI PER MOBILE 
+==================*/
+
+a:visited:before {content:  "\2713 ";} /*Aggiunge un segno ai link visitati*/
 
 @media only screen and (mix-device-width : 320px) and (max-device-width : 480px) {
 	#container {margin:auto; width:320px; height:900px;}
