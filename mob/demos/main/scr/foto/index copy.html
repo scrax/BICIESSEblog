@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>BICIESSE Mobile</title>
+        <style type="text/css" media="screen">@import "jqtouch/jqtouch.min.css";</style>
+        <style type="text/css" media="screen">@import "themes/theme.css";</style>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+        <script src="jqtouch/jqtouch.min.js" type="application/x-javascript" charset="utf-8"></script>
+        <script type="text/javascript" charset="utf-8">
+			var jQT = new $.jQTouch({
+				icon			: 'codropsIcon.png',
+				cacheGetRequests: true,
+				addGlossToIcon	: false,
+				startupScreen	: 'codropsSplash.png',
+				statusBar		: 'black',
+				preloadImages	: [
+					'themes/img/back_button.png',
+					'themes/img/back_button_clicked.png',
+					'themes/img/button_clicked.png',
+					'themes/img/grayButton.png',
+					'themes/img/whiteButton.png',
+					'themes/img/loading.gif'
+					]
+			}); 
+        </script>
+		<script src="jquery.gallery.js" type="application/x-javascript" charset="utf-8">
+		</script>
+		<style type="text/css" media="screen">
+            #about, #welcome {
+                padding: 100px 10px 40px;
+                text-shadow: rgba(255, 255, 255, 0.3) 0px -1px 0;
+                font-size: 13px;
+                text-align: center;
+                background: #161618;
+            }
+            #about p, #welcome p {
+                margin-bottom: 8px;
+            }
+            #about a, #welcome a {
+                color: #fff;
+                font-weight: bold;
+                text-decoration: none;
+            }
+        </style>
+    </head>
+    <body>
+		<div id="welcome" class="">
+			<p><img src="codropsIcon.png"/></p>
+			<p>
+                <strong>Wonderwall Image Gallery</strong>
+                <a href="http://www.codrops.com">By Codrops</a>
+			</p>
+            <p>A web app created with <br /> <strong>jQTouch</strong></p>
+			<p><br /><br /><a href="#" class="grayButton goback">Close</a></p>
+        </div>
+		<div id="about" class="selectable">
+			<p><img src="codropsIcon.png"/></p>
+			<p>
+                <strong>Wonderwall Image Gallery</strong>
+                <a href="http://www.codrops.com">By Codrops</a>
+			</p>
+            <p>A web app created with <br /> <strong>jQTouch</strong></p>
+			<p><br /><br /><a href="#" class="grayButton goback">Close</a></p>
+        </div>
+        <!-- The home list -->
+        <div id="album_container" class="current">
+            <div class="toolbar">
+                <h1>BICIESSE prod.</h1>
+                <a class="left button slideup" id="infoButton" href="#welcome">Benvenuti</a>
+                <a class="button slideup" id="infoButton" href="#about">Chi siamo</a>
+            </div>
+            <div class="loader" style="display:none;"></div>
+            <ul id="album" class="edgetoedge" style=" ">
+            	<li id="user" class="arrow"><a href="#albums_container" class="nome">Scrizza</a>
+            	</li>
+            	<li id="album2" class="arrow"><a href="#thumbs_container2" class="">TomTom</a></li>
+            	<li id="album3" class="arrow"><a href="#thumbs_container3" class="">Gaio</a></li>
+            	<li id="album4" class="arrow"><a href="#thumbs_container4" class="">DjNN</a></li>
+            </ul>
+   		</div>
+        <div id="albums_container" class="current">
+            <div class="toolbar">
+                <h1>Portfoli</h1>
+                <a class="back" id="infoButton" href="#welcome">Home</a>
+                <a class="button slideup" id="infoButton" href="#about">Chi siamo</a>
+            </div>
+            		<ul id="albums" class="edgetoedge" style="display:none;">
+            			<li id="album1" class="arrow"><a href="#thumbs_container" class="">Foto</a></li>
+            			<li id="album2" class="arrow"><a href="#thumbs_container2" class="">Demo Siti</a></li>
+            			<li id="album3" class="arrow"><a href="#thumbs_container3" class="">Grafiche</a></li>
+            			<li id="album4" class="arrow"><a href="#thumbs_container4" class="">Writing</a></li>
+            			<li id="album5" class="arrow"><a href="#thumbs_container5" class="">Altro</a></li>
+            		</ul></div>
+<script type="text/javascript">
+// basic show and hide
+ $(document).ready(function() {
+   $('li.user,a.nome').click( function() {
+    $('ul#albums').toggle();
+   });
+
+});
+</script>        <!-- The list of Scrizza albums -->
+        <div id="scrizza_container" class="current">
+            <div class="toolbar">
+                <h1>Scrizza</h1>
+				<a class="back" href="#">Home</a>
+                <a class="button slideup" id="infoButton" href="#about">Chi siamo</a>
+            </div>
+            <div class="loader" style="display:none;"></div>
+            <ul id="albums" class="edgetoedge" style=" ">
+            	<li id="album1" class="arrow"><a href="#thumbs_container" class="">Foto</a></li>
+            	<li id="album2" class="arrow"><a href="#thumbs_container2" class="">Demo Siti</a></li>
+            	<li id="album3" class="arrow"><a href="#thumbs_container3" class="">Grafiche</a></li>
+            	<li id="album4" class="arrow"><a href="#thumbs_container4" class="">Writing</a></li>
+            	<li id="album5" class="arrow"><a href="#thumbs_container5" class="">Altro</a></li>
+            </ul>
+   		</div>
+		<!-- The list of images (thumbs) -->
+		<div id="thumbs_container" class="current">
+            <div class="toolbar">
+                <h1>Foto</h1>
+				<a class="back" href="#scrizza_container">Scrizza</a>
+                <a class="button slideup" id="infoButton" href="#about">Chi siamo</a>
+            </div>
+			<div class="loader" style="display:none;"></div>
+			<ul id="thumbs" class="thumbView" style="display:none;">
+				<li class="pic"><a href="#photo_container"><span style="font-size:0.6em; position:absolute; top:50px; left:5px; ">Foto</span><img src="thumbs/1.jpg" alt="images/1.jpg" title="this is a description"/></a></li>
+				<li class="pic"><a href="#photo_container"><img src="thumbs/2.jpg" alt="images/2.jpg" title="great!"/></a></li>
+				<li class="pic"><a href="#photo_container"><img src="thumbs/3.jpg" alt="images/3.jpg" title="... and another"/></a></li>
+				<li class="pic"><a href="#photo_container"><span style="font-size:0.6em; position:absolute; top:50px; left:5px; ">Web Demo</span><img src="thumbs/4.jpg" alt="images/4.jpg" title="Light!"/></a></li>
+				<li class="pic"><a href="#photo_container"><img src="thumbs/5.jpg" alt="images/5.jpg" title="... and another"/></a></li>
+			</ul>
+            <footer style="width:100%; float:left;">
+            	<h2>Titolo</h2>
+            	<p>Test di testo</p>
+            </footer>
+        </div>
+		<!-- The single image container -->
+		<div id="photo_container">
+            <div class="toolbar">
+                <h1></h1>
+                <a class="back" href="#thumbs_container">Indietro</a>
+				<a class="button slideup" id="infoButton" href="#about">Chi siamo</a>
+            </div>
+			<div class="loader" style="display:none;"></div>
+			<div id="theimage" class="singleimage"></div>
+			<div class="descriptionWrapper">
+				<p id="description"></p>
+				<div id="prev" style="display:none;"></div>
+				<div id="next" style="display:none;"></div>
+			</div>	
+        </div>
+    </body>
+</html>
